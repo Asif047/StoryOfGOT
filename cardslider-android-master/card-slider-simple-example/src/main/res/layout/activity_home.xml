@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.ramotion.cardslider.examples.simple.HomeActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            //aaa
+
+            <RelativeLayout
+                android:id="@+id/season1_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season1"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 1"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="April 17, 2011"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/imageview_season1"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.1 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageview_season1"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season1"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa
+
+
+
+
+            //aaa
+
+            <RelativeLayout
+                android:id="@+id/season2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season2"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 2"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="June 3, 2012"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.0 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageview_season2"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season2"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa
+
+
+
+
+
+            //aaa
+
+            <RelativeLayout
+                android:id="@+id/season3_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season3"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 3"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="March 31, 2013"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.1 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <ImageView
+                    android:id="@+id/imageview_season3"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season3"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa
+
+
+
+
+
+
+
+            //aaa 4
+
+            <RelativeLayout
+                android:id="@+id/season4_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season4"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 4"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="April 6, 2014"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.3 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <ImageView
+                    android:id="@+id/imageview_season4"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season4"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa 4
+
+
+
+
+            //aaa 5
+
+            <RelativeLayout
+                android:id="@+id/season5_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season5"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 5"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="June 14, 2015"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="8.9 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <ImageView
+                    android:id="@+id/imageview_season5"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season5"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa 5
+
+
+
+
+            //aaa 6
+
+            <RelativeLayout
+                android:id="@+id/season6_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season6"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 6"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="April 24, 2016"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.1 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <ImageView
+                    android:id="@+id/imageview_season6"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season6"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa 6
+
+
+
+
+
+
+            //aaa 7
+
+            <RelativeLayout
+                android:id="@+id/season7_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_season7"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:background="@android:color/transparent"
+
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="130dp"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/textview_season7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Season 7"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/released_date_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Released Date: "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_released_date_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="July 16, 2017"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/number_of_epi_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Num. of Episodes : "
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <TextView
+                                    android:id="@+id/textview_number_of_epi_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="7"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#c0c0c0" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/imdb_rating_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Avg. Imdb Rating:"
+                                    android:textColor="@color/colorSubTitle"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+
+                                    />
+
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/icon_star"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/textview_imdb_rating_season7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="9.2 /10"
+                                    android:textColor="@color/colorDetails"
+                                    android:textSize="15dp"
+
+                                    />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <ImageView
+                    android:id="@+id/imageview_season7"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="20dp"
+
+                    android:src="@drawable/season7"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+            //aaa 7
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
