@@ -117,6 +117,64 @@ public class DetailsActivity extends AppCompatActivity implements DecodeBitmapTa
             case R.drawable.s2e9: bigResId = R.drawable.s2e9; break;
             case R.drawable.s2e10: bigResId = R.drawable.s2e10; break;
 
+
+            case R.drawable.s3e1: bigResId = R.drawable.s3e1; break;
+            case R.drawable.s3e2: bigResId = R.drawable.s3e2; break;
+            case R.drawable.s3e3: bigResId = R.drawable.s3e3; break;
+            case R.drawable.s3e4: bigResId = R.drawable.s3e4; break;
+            case R.drawable.s3e5: bigResId = R.drawable.s3e5; break;
+            case R.drawable.s3e6: bigResId = R.drawable.s3e6; break;
+            case R.drawable.s3e7: bigResId = R.drawable.s3e7; break;
+            case R.drawable.s3e8: bigResId = R.drawable.s3e8; break;
+            case R.drawable.s3e9: bigResId = R.drawable.s3e9; break;
+            case R.drawable.s3e10: bigResId = R.drawable.s3e10; break;
+
+
+
+            case R.drawable.s4e1: bigResId = R.drawable.s4e1; break;
+            case R.drawable.s4e2: bigResId = R.drawable.s4e2; break;
+            case R.drawable.s4e3: bigResId = R.drawable.s4e3; break;
+            case R.drawable.s4e4: bigResId = R.drawable.s4e4; break;
+            case R.drawable.s4e5: bigResId = R.drawable.s4e5; break;
+            case R.drawable.s4e6: bigResId = R.drawable.s4e6; break;
+            case R.drawable.s4e7: bigResId = R.drawable.s4e7; break;
+            case R.drawable.s4e8: bigResId = R.drawable.s4e8; break;
+            case R.drawable.s4e9: bigResId = R.drawable.s4e9; break;
+            case R.drawable.s4e10: bigResId = R.drawable.s4e10; break;
+
+
+            case R.drawable.s5e1: bigResId = R.drawable.s5e1; break;
+            case R.drawable.s5e2: bigResId = R.drawable.s5e2; break;
+            case R.drawable.s5e3: bigResId = R.drawable.s5e3; break;
+            case R.drawable.s5e4: bigResId = R.drawable.s5e4; break;
+            case R.drawable.s5e5: bigResId = R.drawable.s5e5; break;
+            case R.drawable.s5e6: bigResId = R.drawable.s5e6; break;
+            case R.drawable.s5e7: bigResId = R.drawable.s5e7; break;
+            case R.drawable.s5e8: bigResId = R.drawable.s5e8; break;
+            case R.drawable.s5e9: bigResId = R.drawable.s5e9; break;
+            case R.drawable.s5e10: bigResId = R.drawable.s5e10; break;
+
+
+            case R.drawable.s6e1: bigResId = R.drawable.s6e1; break;
+            case R.drawable.s6e2: bigResId = R.drawable.s6e2; break;
+            case R.drawable.s6e3: bigResId = R.drawable.s6e3; break;
+            case R.drawable.s6e4: bigResId = R.drawable.s6e4; break;
+            case R.drawable.s6e5: bigResId = R.drawable.s6e5; break;
+            case R.drawable.s6e6: bigResId = R.drawable.s6e6; break;
+            case R.drawable.s6e7: bigResId = R.drawable.s6e7; break;
+            case R.drawable.s6e8: bigResId = R.drawable.s6e8; break;
+            case R.drawable.s6e9: bigResId = R.drawable.s6e9; break;
+            case R.drawable.s6e10: bigResId = R.drawable.s6e10; break;
+
+
+            case R.drawable.s7e1: bigResId = R.drawable.s7e1; break;
+            case R.drawable.s7e2: bigResId = R.drawable.s7e2; break;
+            case R.drawable.s7e3: bigResId = R.drawable.s7e3; break;
+            case R.drawable.s7e4: bigResId = R.drawable.s7e4; break;
+            case R.drawable.s7e5: bigResId = R.drawable.s7e5; break;
+            case R.drawable.s7e6: bigResId = R.drawable.s7e6; break;
+            case R.drawable.s7e7: bigResId = R.drawable.s7e7; break;
+
             default: bigResId = R.drawable.season1;
         }
 

@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DetailsActivity"
             android:screenOrientation="portrait" />
@@ -23,7 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Season2.Season2Activity"></activity>
+        <activity android:name=".Season2.Season2Activity" />
+        <activity android:name=".Season3.Season3Activity" />
+        <activity android:name=".Season4.Season4Activity" />
+        <activity android:name=".Season5.Season5Activity" />
+        <activity android:name=".Season6.Season6Activity" />
+        <activity android:name=".Season7.Season7Activity"></activity>
     </application>
 
 </manifest>
