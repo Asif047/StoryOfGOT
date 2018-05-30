@@ -1,0 +1,66 @@
+[
+
+    {
+        "id" : "1",
+        "season_name" : "Season 1",
+        "released_date" : "April 17, 2011",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "9.1/10",
+        "img" : "R.drawable.season1"
+    },
+
+    {
+        "id" : "2",
+        "season_name" : "Season 2",
+        "released_date" : "June 3, 2012",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "9.0/10",
+        "img" : "R.drawable.season2"
+    },
+
+    {
+        "id" : "3",
+        "season_name" : "Season 3",
+        "released_date" : "March 31, 2013",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "9.1/10",
+        "img" : "R.drawable.season3"
+    },
+
+    {
+        "id" : "4",
+        "season_name" : "Season 4",
+        "released_date" : "April 6, 2014",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "9.3/10",
+        "img" : "R.drawable.season4"
+    },
+
+    {
+        "id" : "5",
+        "season_name" : "Season 5",
+        "released_date" : "June 14, 2015",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "8.9/10",
+        "img" : "R.drawable.season5"
+    },
+
+    {
+        "id" : "6",
+        "season_name" : "Season 6",
+        "released_date" : "April 24, 2016",
+        "num_of_episodes": "10",
+        "avg_imdb_rating" : "9.1/10",
+        "img" : "R.drawable.season6"
+    },
+
+    {
+        "id" : "7",
+        "season_name" : "Season 7",
+        "released_date" : "July 16, 2017",
+        "num_of_episodes": "7",
+        "avg_imdb_rating" : "9.2/10",
+        "img" : "R.drawable.season7"
+    }
+
+]
