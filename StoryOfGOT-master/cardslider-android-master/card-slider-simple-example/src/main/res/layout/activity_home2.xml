@@ -71,7 +71,11 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
 
+<<<<<<< HEAD
             android:layout_marginTop="10dp"
+=======
+            android:layout_marginTop="100dp"
+>>>>>>> e120b730a2283b77b6343ce5c5bfe03c7715674b
             >
 
             <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -16,6 +16,7 @@
         <activity
             android:name=".DetailsActivity"
             android:screenOrientation="portrait" />
+<<<<<<< HEAD:StoryOfGOT-master/cardslider-android-master/card-slider-simple-example/src/main/AndroidManifest.xml
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".Season2.Season2Activity" />
         <activity android:name=".Season3.Season3Activity" />
@@ -36,6 +37,32 @@
             </intent-filter>
 
         </activity>
+=======
+        <activity android:name=".HomeActivity">
+
+
+
+        </activity>
+        <activity android:name=".Season2.Season2Activity" />
+        <activity android:name=".Season3.Season3Activity" />
+        <activity android:name=".Season4.Season4Activity" />
+        <activity android:name=".Season5.Season5Activity" />
+        <activity android:name=".Season6.Season6Activity" />
+        <activity android:name=".Season7.Season7Activity" />
+        <activity android:name=".Home2Activity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".HomeRecycler.Home3Activity">
+
+
+        </activity>
+>>>>>>> e120b730a2283b77b6343ce5c5bfe03c7715674b:StoryOfGOT-master/cardslider-android-master/card-slider-simple-example/src/main/AndroidManifest.xml
     </application>
 
 </manifest>
